@@ -45,6 +45,7 @@ class Cat{
         } else if (color === 'Black') {
             this.character.push('Independent','Strong-willed','Hunters')
         }
+        return this.character
     }
 
     
@@ -62,7 +63,7 @@ console.log(myNeighborsCat.curious(true));
 console.log(myNeighborsCat.needy());
 console.log(myNeighborsCat.personality("Black"))
 console.log(myNeighborsCat)
-
+console.log('TESTSTSTSTSTTS')
 /////////////////////////////////////////////////////////
 
 class Pirate{
